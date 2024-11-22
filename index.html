@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B. Ramana Kumar - Purchase Executive - Curriculum Vitae</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://www.dropbox.com/scl/fi/prnryqwj46vw9n0w2n2z3/4k_background_footage_ideal_for_Blockchain_Website.gif?rlkey=88ahewzb8tfdf44wn6rqb76dt&st=c9mt2dhk&dl=1') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        h2 {
+            cursor: pointer;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        h2 .icon {
+            margin-right: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            display: none;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        p, li {
+            margin: 0 0 10px;
+        }
+
+        a {
+            color: #0569ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <div>
+                <h1>B. Ramana Kumar</h1>
+                <p>Email: <a href="mailto:Ramanabingi9933@gmail.com">Ramanabingi9933@gmail.com</a> | Phone: 7287099330</p>
+                <p>Location: 11-28-316, Padmanagar-1, Kothawada, Warangal, Telangana-506002</p>
+            </div>
+            <img src="https://www.dropbox.com/scl/fi/i3siqnwyekz8me4rqv174/1000171504-01.jpeg?rlkey=5yxosxewim2irvuhiq4vlz8kb&st=5xdts4dg&dl=1" alt="Profile Picture">
+        </div>
+
+        <!-- Professional Summary -->
+        <div class="section">
+            <h2 onclick="toggleSection(this)"><i class="fas fa-user icon"></i>Professional Summary</h2>
+            <ul>
+                <li>Dedicated and results-oriented Purchase Manager with over 2.5 years of experience at Sharat Maxivision Eye Hospital.</li>
+                <li>Proven track record in OT stock management, housekeeping, stationery, and general stock management.</li>
+                <li>Expertise in vendor negotiation, cost reduction, and supply chain optimization.</li>
+            </ul>
+        </div>
+
+        <!-- Professional Experience -->
+        <div class="section">
+            <h2 onclick="toggleSection(this)"><i class="fas fa-briefcase icon"></i>Professional Experience</h2>
+            <ul>
+                <li><strong>Purchase Manager</strong> - Sharat Maxivision Eye Hospital | July 2022 – Present</li>
+                <li>Conducted extensive research and analysis on potential suppliers to identify cost-effective solutions.</li>
+                <li>Negotiated pricing, delivery terms, and payment terms with suppliers to secure favorable terms.</li>
+                <li>Streamlined procurement processes, cutting cycle time by 25%.</li>
+            </ul>
+        </div>
+
+        <!-- Education -->
+        <div class="section">
+            <h2 onclick="toggleSection(this)"><i class="fas fa-graduation-cap icon"></i>Education</h2>
+            <ul>
+                <li><strong>Bachelor of Technology (B. Tech) in Civil Engineering</strong></li>
+                <li>St. Mary Group of Institutions</li>
+            </ul>
+        </div>
+
+        <!-- Skills -->
+        <div class="section">
+            <h2 onclick="toggleSection(this)"><i class="fas fa-tools icon"></i>Skills</h2>
+            <ul>
+                <li>Budget Management</li>
+                <li>Market Demand Analysis</li>
+                <li>Strategic Sourcing & Inventory Coordination</li>
+                <li>Supply Chain Management</li>
+                <li>Cost Analysis & Technical Knowledge</li>
+            </ul>
+        </div>
+
+        <!-- Languages -->
+        <div class="section">
+            <h2 onclick="toggleSection(this)"><i class="fas fa-language icon"></i>Languages</h2>
+            <ul>
+                <li>Telugu (Native)</li>
+                <li>Hindi (Fluent)</li>
+                <li>English (Fluent)</li>
+            </ul>
+        </div>
+
+        <!-- Professional Attributes -->
+        <div class="section">
+            <h2 onclick="toggleSection(this)"><i class="fas fa-star icon"></i>Professional Attributes</h2>
+            <ul>
+                <li>Passionate about work and eager to apply specific skills to make a significant impact.</li>
+                <li>Committed to continuous learning and professional growth.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Toggle dropdown sections
+        function toggleSection(section) {
+            const ul = section.nextElementSibling;
+            ul.style.display = ul.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+
+</html>
